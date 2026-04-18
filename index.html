@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AYO WHAT THE L!</title>
+    <style>
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('Fonts/Minecraft.ttf');
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Minecraft', sans-serif;
+            padding: 20px;
+        }
+
+        .nav-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Minecraft', sans-serif;
+            font-size: 20px;
+        }
+
+            a:hover {
+                color: #aaa;
+                text-shadow: 2px 2px #555;
+            }
+
+        .calvins-link {
+            color: #FFD700;
+            animation: yellowPulse 1.5s ease-in-out infinite;
+        }
+
+            .calvins-link:hover {
+                color: #FFD700;
+                text-shadow: 0 0 8px #FFD700, 0 0 20px #FFA500, 2px 2px #8B6914;
+            }
+
+        @keyframes yellowPulse {
+            0% {
+                text-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500;
+            }
+
+            50% {
+                text-shadow: 0 0 15px #FFD700, 0 0 30px #FFA500, 0 0 45px #FF8C00;
+            }
+
+            100% {
+                text-shadow: 0 0 5px #FFD700, 0 0 10px #FFA500;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>AYO WHAT THE L</h1>
+    <div class="nav-container">
+        <a href="Credits/index.html">View Credits</a>
+        <h1>Baldis Basics Games</h1>
+        <a href="Games/Baldis Basics Classic V4.5/index.html">Baldis Basics Classic V4.5</a>
+        <a href="Games/Baldis Basics Birthday Bash/index.html">Baldi's Basics Birthday Bash</a>
+        <a href="Games/SubterBaldi/index.html">Subter Baldi</a>
+        <a href="Games/The NULL Update/index.html">The NULL Update</a>
+        <a href="Games/Calvins Basics/index.html" class="calvins-link">Calvins Basics</a>
+        <h1>Minecraft</h1>
+        <a href="Games/Minecraft PE/index.html">Minecraft PC (Legacy)</a>
+    </div>
+</body>
+</html>
