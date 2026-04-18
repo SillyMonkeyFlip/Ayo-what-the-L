@@ -10,5 +10,5 @@ A website i made bc I'm bored!
 
 Preview of the site (Might Change!)
 
-![til](Media/Site Gif.gif)
+![til](Media/SiteGif.gif)
 
