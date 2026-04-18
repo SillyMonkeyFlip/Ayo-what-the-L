@@ -1,10 +1,14 @@
 # Ayo what the L
 
-
-
-A website i made bc im bored!
+\[GO TO SITE](https://sillymonkeyflip.github.io/Ayo-what-the-L/)
 
 
 
-Before you ask. Yes i'm Ermology
+A website i made bc I'm bored!
+
+
+
+Preview of the site (Might Change!)
+
+!\[til](Media/Site Design.png)
 
